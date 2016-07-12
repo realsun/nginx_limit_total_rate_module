@@ -1,0 +1,40 @@
+
+======================== description =========================
+
+this module can be used to limit total extranet total rate, 
+both upload and download, meanwhile, the upload limit rate module
+allow you to set different rate per time slot.
+
+==============================================================
+
+======================== nginx.conf ==========================
+
+http {
+
+    # for limit download rate conf
+    # limit download rate shared memory
+    limit_traffic_rate_zone rate $nginx_version 10m;
+    # total rate (per second)
+    limit_traffic_rate rate 25m;
+    limit_download_rate_module_switch on;
+    # minest limited rate per connection
+    limit_download_rate_min 20480;
+    limit_download_rate_max_limit_count 5;
+    limit_download_rate_skip_msec 1000;
+    limit_download_rate_intranet_ip 10.0.0.0 10.255.255.255;
+
+    # for limit upload rate conf
+    limit_upload_rate_shm_zone limit_upload_zone 10m;
+    upload_limit_rate_module_switch on;
+    limit_upload_rate_after 0;
+    # total limit rate (for 24hour)
+    limit_upload_rate_period 30m_30m_30m_30m_30m_30m_30m_30m_30m_30m_30m_30m_30m_30m_30m_30m_30m_30m_30m_30m_30m_30m_30m_30m;
+    # minest limited rate per connection
+    limit_upload_rate_min 10240;
+    limit_upload_max_delay_time 6000;
+    limit_upload_max_limit_count 5;
+    limit_upload_skip_msec 1000;
+    limit_upload_rate_intranet_ip 10.0.0.0 10.255.255.255;
+
+}
+
