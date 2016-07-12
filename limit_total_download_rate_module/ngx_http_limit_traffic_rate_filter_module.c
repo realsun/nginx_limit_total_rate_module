@@ -1,5 +1,5 @@
 /*
- * author: realsun
+ * Author: realsun
  */
 
 #include <ngx_config.h>

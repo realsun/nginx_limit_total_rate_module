@@ -1,63 +1,42 @@
-[?25l[?1c[24m[0m[28;1H[1m[37m[41mError detected while processing /home/users/yangrui03/.vim/plugin/DoxygenToolkit.vim:[0m
-[1m[33mline  391:[0m
-[1m[37m[41mE15: Invalid expression: ['template', 'explicit', 'inline', 'static', 'virtual', 'void\([[:blank:]]*\*\)\@!', 'const', '[0m
-[27;121H[1m[37m[41mv[28;1Holatile', 'struct', 'extern'][0m
-[1m[37m[41mE15: Invalid expression:  ['template', 'explicit', 'inline', 'static', 'virtual', 'void\([[:blank:]]*\*\)\@!', 'const', [0m
-[27;121H[1m[37m[41m'[28;1Hvolatile', 'struct', 'extern'][0m
-[1m[33mline  393:[0m
-[1m[37m[41mE121: Undefined variable: s:ignoreForReturn[0m
-[1m[37m[41mE15: Invalid expression:  s:ignoreForReturn[:][0m
-[1m[33mline  397:[0m
-[1m[37m[41mE108: No such variable: "s:ignoreForReturn"[0m
-[1m[33mline  684:[0m
-[1m[37m[41mE121: Undefined variable: l:doc[0m
-[1m[37m[41mE15: Invalid expression: ( l:doc.type == "" )[0m
-[1m[33mline  715:[0m
-[1m[37m[41mE121: Undefined variable: l:doc[0m
-[1m[37m[41mE15: Invalid expression: ( ( l:doc.type == "class" && g:DoxygenToolkit_briefTag_className != "yes" ) || ( l:doc.type == [0m
-[27;121H[1m[37m[41m"[28;1Hstruct" && g:DoxygenToolkit_briefTag_structName != "yes" ) || ( l:doc.type == "enum" && g:DoxygenToolkit_briefTag_enumNa[0m
-[27;121H[1m[37m[41mm[28;1He != "yes" ) || ( l:doc.type == "namespace" && g:DoxygenToolkit_briefTag_namespaceName != "yes" ) || ( l:doc.type == "fu[0m
-[27;121H[1m[37m[41mn[28;1Hction" && g:DoxygenToolkit_briefTag_funcName != "yes" ) )[0m
-[1m[33mline  726:[0m
-[1m[37m[41mE117: Unknown function: s:InitializeParameters[0m
-[1m[33mline  727:[0m
-[1m[37m[41mE117: Unknown function: s:CheckFileType[0m
-[1m[37m[41mE15: Invalid expression: ( s:CheckFileType() == "python" && l:doc.type == "function" && g:DoxygenToolkit_python_autoFunc[0m
-[27;121H[1m[37m[41mt[28;1HionReturn == "yes" )[0m[1m[33mline  732:[0m[28;11H[K[28;1H
-[1m[37m[41mE20: Mark not set[0m
-[1m[32m-- More --[?25h[?0c[0m[28;1H[K[?25l[?1c[28;1H[1m[33mline  734:[0m
-[1m[37m[41mE121: Undefined variable: s:startCommentBlock[0m
-[1m[37m[41mInterrupted[0m
-[1m[37m[41mError detected while processing /home/users/yangrui03/.vim/plugin/taglist.vim:[0m
-[1m[33mline    1:[0m
-[1m[37m[41mInterrupted[1;28r[?25h[?8c[?25h[?0c[27m[24m[0m[H[J[28;1H"ngx_http_request_body.c" [converted] 1720L, 45738C
-[1m[37m[41mError detected while processing /home/users/yangrui03/.vim/after/ftplugin/c.vim:[0m
-[1m[33mline    2:[0m
-[1m[37m[41mE107: Missing braces: omni#cpp#complete#Init()[0m"../../../old/nginx/src/ngx_http_request_body.c" Interrupted
-Interrupt: [1m[32mHit ENTER or type command to continue[?25h[?0c[0m[1;1H[4L[?25l[?1c[1;1H[1m[36m[40m  [0m[36m   1720 [0m}[1;61H[7m|[2;61H|[3;61H|[4;61H|[5;61H|[6;61H|[7;61H|[8;61H|[9;61H|[10;61H|[11;61H|[12;61H|[13;61H|[14;61H|[15;61H|[16;61H|[17;61H|[18;61H|[19;61H|[20;61H|[21;61H|[22;61H|[23;61H|[24;61H|[25;61H|[26;61H|[0m[2;1H[1m[36m[40m  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  [0m[2;3H[31m~                                                         [3;3H~                                                         [4;3H~                                                         [5;3H~                                                         [6;3H~                                                         [7;3H~                                                         [8;3H~                                                         [9;3H~                                                         [10;3H~                                                         [11;3H~                                                         [12;3H~                                                         [13;3H~                                                         [14;3H~                                                         [15;3H~                                                         [16;3H~                                                         [17;3H~                                                         [18;3H~                                                         [19;3H~                                                         [20;3H~                                                         [21;3H~                                                         [22;3H~                                                         [23;3H~                                                         [24;3H~                                                         [25;3H~                                                         [26;3H~                                                         [0m
-[1m[7m[37m[44mngx_http_request_body.c                   1720,1         Bot [0m[1;62H[1m[36m[40m- [0m[36m      1 [0m[2;62H[1m[36m[40m  [3;62H  [4;62H  [5;62H  [6;62H  [7;62H  [8;62H  [9;62H  [10;62H  [11;62H  [12;62H  [13;62H  [14;62H  [15;62H  [16;62H  [17;62H  [18;62H  [19;62H  [20;62H  [21;62H  [22;62H  [23;62H  [24;62H  [25;62H  [26;62H  [0m[2;64H[31m~                                                         [3;64H~                                                         [4;64H~                                                         [5;64H~                                                         [6;64H~                                                         [7;64H~                                                         [8;64H~                                                         [9;64H~                                                         [10;64H~                                                         [11;64H~                                                         [12;64H~                                                         [13;64H~                                                         [14;64H~                                                         [15;64H~                                                         [16;64H~                                                         [17;64H~                                                         [18;64H~                                                         [19;64H~                                                         [20;64H~                                                         [21;64H~                                                         [22;64H~                                                         [23;64H~                                                         [24;64H~                                                         [25;64H~                                                         [26;64H~                                                         [0m[27;62H[1m[34m[47m<d/nginx/src/ngx_http_request_body.c [RO] 0,0-1          All[0m[28;1H[K[1;72H[?25h[?0c[?25l[?1c[28;1HType  :quit<Enter>  to exit Vim[1;72H[?25h[?0c[?25l[?1c[28;111H^D[1;72H[28;111H  [1;72H[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[28;111H^D[1;72H[28;111H  [1;72H[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[28;111H^D[1;72H[28;111H  [1;72H[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[28;111H^D[1;72H[28;111H  [1;72H[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c[28;111H^M[1;72H[28;111H  [1;72H[?25h[?0c[?25l[?1c[28;111H^M[1;72H[28;111H  [1;72H[?25h[?0c[?25l[?1c[28;111H^M[1;72H[28;111H  [1;72H[?25h[?0c[?25l[?1c[28;111H^M[1;72H[28;111H  [1;72H[?25h[?0c[?25l[?1c[28;111H^M[1;72H[28;111H  [1;72H[?25h[?0c[28;1HVim: Error reading input, exiting...
-[28;1HVim: Caught deadly signal HUP
+diff ngx_http_request_body.c
+690,703d688
+< 
+<     ngx_event_t *wev = r->connection->write;
+< 
+<     ngx_msec_int_t  diff;
+< 
+<     if (wev->timer_set) {
+<         diff = (ngx_msec_int_t) (wev->timer.key - ngx_current_msec);
+<         if (diff > 0 && diff < 10001) {
+<             ngx_log_debug1(NGX_LOG_DEBUG_HTTP, r->connection->log, 0, "diff[%l]", diff);
+<             return NGX_AGAIN;
+<         }   
+<     }   
+< 
+< 
+1646d1624
+<     ngx_int_t                  rc;
+1685,1718d1662
+<     for (cl = in; cl; cl = cl->next) {
+<         rc = ngx_http_top_input_body_filter(r, cl->buf);
+<         if (rc != NGX_OK) {
+<             if (rc > NGX_OK && rc < NGX_HTTP_SPECIAL_RESPONSE) {
+<                 ngx_log_error(NGX_LOG_ERR, r->connection->log, 0,
+<                               "input filter: return code 1xx or 2xx "
+<                               "will cause trouble and is converted to 500");
+<             }
+< 
+<             /**
+<              * NGX_OK: success and continue;
+<              * NGX_ERROR: failed and exit;
+<              * NGX_AGAIN: not ready and retry later.
+<              */
+< 
+<             if (rc < NGX_HTTP_SPECIAL_RESPONSE && rc != NGX_AGAIN) {
+<                 rc = NGX_HTTP_INTERNAL_SERVER_ERROR;
+<             }
+< 
+<             return rc;
+<         }
+<     }
+< 
